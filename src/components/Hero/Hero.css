@@ -1,0 +1,58 @@
+.inside__border {
+  border: 5px solid #212121;
+  border-radius: 10px;
+  margin-top: 4rem;
+  padding: 2rem;
+}
+
+.inside__border .left {
+  font-size: 1.2rem;
+}
+
+.inside__border .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inside__border .circle img {
+  width: 350px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .inside__border .left {
+    font-size: 1rem;
+  }
+  .inside__border .circle img {
+    width: 200px !important;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1300px) {
+  .inside__border .left {
+    font-size: 1.1rem;
+  }
+  .inside__border .circle img {
+    width: 250px !important;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 966px) {
+  .inside__border .left {
+    font-size: 1.1rem;
+  }
+  .inside__border .circle img {
+    width: 200px !important;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=Hero.css.map */
