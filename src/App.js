@@ -4,6 +4,8 @@ import { Row, Col } from "react-bootstrap";
 import Link from "./components/Links/Links";
 import "./index.css";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 const App = () => {
   return (
     <div>
@@ -11,6 +13,8 @@ const App = () => {
         <Col xs={12} md={11} className="main">
           <Hero />
           <Skills />
+          <Projects />
+          <Contact />
         </Col>
         <Col xs={12} md={1} className="social_links">
           <Link />

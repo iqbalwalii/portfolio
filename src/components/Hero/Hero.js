@@ -27,7 +27,7 @@ const Hero = () => {
           </Col>
           <Col xs={12} md={{ span: 4, offset: 2 }}>
             <div className="circle">
-              <img src="../assets/iqbalwali.png" />
+              <img src="../assets/iqbalwali.png" alt="Iqbalwali" />
             </div>
           </Col>
         </Row>

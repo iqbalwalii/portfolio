@@ -1,1 +1,28 @@
-/* No CSS *//*# sourceMappingURL=Projects.css.map */
+.projects {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1.3rem;
+}
+
+.projects .card {
+  background: #212121;
+  color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.projects .card h5 {
+  margin: 0;
+  padding: 1rem;
+  padding-bottom: .2rem;
+}
+
+.projects .card hr {
+  margin: 0;
+}
+
+.projects .card p {
+  padding: 1rem;
+}
+/*# sourceMappingURL=Projects.css.map */
