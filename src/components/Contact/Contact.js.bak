@@ -25,7 +25,14 @@ const Contact = () => {
                   placeholder="Your Email Id"
                 />
               </Form.Group>
-           
+              <Form.Group controlId="email" className="mt-2">
+                <Form.Label>Email</Form.Label>
+                <Form.Control
+                  type="email"
+                  required="required"
+                  placeholder="Your Email Id"
+                />
+              </Form.Group>
               <Form.Group controlId="Message" className="mt-2">
                 <Form.Label>Message</Form.Label>
                 <Form.Control
