@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
+import { Container } from "react-bootstrap";
 
 const Thanks = () => {
   const [loader, setLoader] = useState(true);
