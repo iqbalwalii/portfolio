@@ -1,7 +1,6 @@
 import React from "react";
 import Hero from "../src/components/Hero/Hero";
 import { Row, Col } from "react-bootstrap";
-import Link from "./components/Links/Links";
 import "./index.css";
 import "./style.css";
 import Skills from "./components/Skills/Skills";

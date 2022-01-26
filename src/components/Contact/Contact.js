@@ -22,7 +22,6 @@ const Contact = () => {
                   name="Name"
                   id="name"
                   type="text"
-                  required
                   onChange={(e) => {
                     setDetails({ ...details, name: e.target.value });
                   }}
@@ -34,7 +33,6 @@ const Contact = () => {
                   name="Email"
                   id="email"
                   type="email"
-                  required
                   required="required"
                   placeholder="Your Email Id"
                   onChange={(e) => {
