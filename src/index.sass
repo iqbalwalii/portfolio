@@ -9,7 +9,34 @@ body
     display: flex
     align-items: center
     justify-content: center
-    
+
+.btn-grad
+    background-image: linear-gradient(to right,#9ce183 0%,  #929edd 51%, #9ce183 100%) 
+    margin-top: 10px
+    padding: 10px 30px
+    border: 1px solid #2121211e
+    text-align: center
+    text-transform: uppercase
+    transition: 0.5s
+    background-size: 200% auto
+    color: rgb(24, 18, 18)
+    /* box-shadow: 0 0 20px #eee */
+    border-radius: 10px
+    display: block
+    border-top-right-radius: 10px
+    border-bottom-right-radius: 0px
+    border-top-left-radius: 0px
+    border-bottom-left-radius: 10px
+    &:hover
+        border-bottom-left-radius: 0px
+        border-top-right-radius: 0px
+        border-bottom-right-radius: 10px
+        border-top-left-radius: 10px
+        background-position: right center 
+        color: #212121
+        text-decoration: none
+        border: 1px solid #2121211e
+
 @media screen and (min-width: 200px) and (max-width: 767px)
     .social_links
         order: 0
@@ -17,3 +44,5 @@ body
 
     .main
         order: 1
+
+    

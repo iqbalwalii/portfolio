@@ -1,10 +1,27 @@
 .inside__border
-    border: 5px solid #212121
-    border-radius: 10px
+    border-top: 2px solid #110e0e
+    border-bottom: 2px solid #110e0e
+    border-left: 1px solid #110e0e
+    border-right: 1px solid #110e0e
+    border-bottom-left-radius: 30px
+    border-bottom-right-radius: 0px
+    border-top-right-radius: 30px
+    border-top-left-radius: 0px
     margin-top: 4rem
-    padding: 2rem
+    padding: 3rem
+    // background: linear-gradient(to right,  #d2d3d8, #5aa87d,)
+    transition: all .6s ease-out
+    // animation: border-animation .6s ease-out
+    // animation-iteration-count: infinite
+    &:hover
+        // background: linear-gradient(to right,  #48acac, #eaeeec,)
+        transform: scale(1.02)
+        transition: all .6s ease-out
+        border-radius: 10px
+       
     & .left
         font-size: 1.2rem
+        color: #f8f8f888
     & .circle
         display: flex
         justify-content: center

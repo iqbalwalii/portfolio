@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="inside__border">
         <div className="navbar d-flex">
           <div className="d-flex align-items-center">
-            <img src="../assets/IW.svg" width="60px" alt="logo_iqbal_wali" />
+            <img src="../assets/IW.svg" width="110px" alt="logo_iqbal_wali" />
             <h3 style={{ color: "#7924D4" }}>Iqbal Wali</h3>
           </div>
         </div>
@@ -23,7 +23,7 @@ const Hero = () => {
               adipisicing elit. Alias id eius asperiores assumenda veritatis
               quia iure ipsam aperiam iusto corrupti!
             </div>
-            <Button variant="danger">Hire Me</Button>
+            <Button className="btn-grad">Hire Me</Button>
           </Col>
           <Col xs={12} md={{ span: 4, offset: 2 }}>
             <div className="circle">

@@ -1,12 +1,29 @@
 .inside__border {
-  border: 5px solid #212121;
-  border-radius: 10px;
+  border-top: 2px solid #110e0e;
+  border-bottom: 2px solid #110e0e;
+  border-left: 1px solid #110e0e;
+  border-right: 1px solid #110e0e;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 0px;
   margin-top: 4rem;
-  padding: 2rem;
+  padding: 3rem;
+  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+
+.inside__border:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+  border-radius: 10px;
 }
 
 .inside__border .left {
   font-size: 1.2rem;
+  color: #f8f8f888;
 }
 
 .inside__border .circle {
