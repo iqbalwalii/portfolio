@@ -55,17 +55,15 @@ const Contact = () => {
                 />
               </Form.Group>
               <Col xs={{ span: 4, offset: 4 }}>
-                <Link to="/thanks">
-                  <Button
-                    variant="success"
-                    size="lg"
-                    className="mt-3"
-                    type="submit"
-                    onClick={onSubmitHandler()}
-                  >
-                    Submit
-                  </Button>
-                </Link>
+                <Button
+                  variant="success"
+                  size="lg"
+                  className="mt-3"
+                  type="submit"
+                  onClick={onSubmitHandler()}
+                >
+                  Submit
+                </Button>
               </Col>
             </Form>
           </Col>
