@@ -37,7 +37,7 @@ const Thanks = () => {
             fill="none"
           />
         </svg>
-        {loader == false ? (
+        {loader === false ? (
           <div className="thanks">
             <h2 style={{ color: "red" }}>Thank You </h2>
             <h5>I got your message </h5>
