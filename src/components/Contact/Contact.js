@@ -1,13 +1,17 @@
 import React, { useState } from "react";
 import { Button, Container, Form, Row, Col } from "react-bootstrap";
-
+import Thanks from "../../thanks";
 const END_POINT =
   "https://public.herotofu.com/v1/d7a10020-7e7c-11ec-bc90-9fd568dae57d";
 const Contact = () => {
   const [details, setDetails] = useState({});
-  const onSubmitHandler = (e) => {};
+  const [popup, setPopup] = useState(false);
+  const onSubmitHandler = (e) => {
+    setPopup(true);
+  };
   return (
     <Container>
+      <Row>{popup === true ? <Thanks /> : ""}</Row>
       <div className="inside__border">
         <h2 className="text-center">Contact</h2>
         <Row>
@@ -60,7 +64,7 @@ const Contact = () => {
                   size="lg"
                   className="mt-3"
                   type="submit"
-                  onClick={onSubmitHandler()}
+                  onClick={onSubmitHandler}
                 >
                   Submit
                 </Button>
