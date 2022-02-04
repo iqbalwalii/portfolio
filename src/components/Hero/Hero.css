@@ -89,6 +89,10 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .hero__inside .hero__inside .inside__body p {
+    text-align: center !important;
+    padding: .5rem !important;
+  }
   .hero__inside .hero__inside .image {
     margin: 1rem;
   }

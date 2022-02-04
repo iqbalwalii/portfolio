@@ -54,7 +54,17 @@ const Contact = () => {
                 />
               </Form.Group>
 
-              <Col xs={12} md={{ span: 4, offset: 4 }}>
+              <Col
+                xs={12}
+                md={{ span: 4, offset: 4 }}
+                style={{
+                  textDecoration: "none",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  marginTop: "2rem",
+                }}
+              >
                 <Button
                   variant="success"
                   size="lg"

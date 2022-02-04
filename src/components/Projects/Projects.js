@@ -58,7 +58,12 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               target="_blank"
-              style={{ textDecoration: "none" }}
+              style={{
+                textDecoration: "none",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
             >
               <Button variant="success mt-5 btn-grad"> More</Button>
             </a>
