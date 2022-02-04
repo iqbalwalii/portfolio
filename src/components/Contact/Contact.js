@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Container, Form, Row, Col } from "react-bootstrap";
-import Thanks from "../../thanks";
+// import Thanks from "../../thanks";
 const END_POINT =
   "https://public.herotofu.com/v1/d7a10020-7e7c-11ec-bc90-9fd568dae57d";
 const Contact = () => {

@@ -1,11 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import {
-  Discord,
   Facebook,
   Instagram,
   Linkedin,
-  Reddit,
   Twitter,
   Whatsapp,
 } from "react-bootstrap-icons";
@@ -18,6 +16,7 @@ const Socials = () => {
           <div className="my__socials">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/in/iqbalwali/"
               className="linkedin"
             >
@@ -25,6 +24,7 @@ const Socials = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.facebook.com/iqbalwalii"
               className="facebook"
             >
@@ -32,6 +32,7 @@ const Socials = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.instagram.com/iqbalwali"
               className="instagram"
             >
@@ -39,6 +40,7 @@ const Socials = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.twitter.com/iqbalwalii"
               className="twitter"
             >
@@ -46,6 +48,7 @@ const Socials = () => {
             </a>
             {/* <a
               target="_blank"
+              rel='noreferrer'
               href="https://www.reddit.com/user/iqbalwali"
               className="reddit"
             >
@@ -54,6 +57,7 @@ const Socials = () => {
 
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://api.whatsapp.com/send?phone=919596537413&text=Develop%20a%20website%20for%20me"
               className="whatsapp"
             >

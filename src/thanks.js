@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
-import { Container } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
 
 const Thanks = () => {
   const [loader, setLoader] = useState(true);
@@ -42,6 +42,12 @@ const Thanks = () => {
             <h2 style={{ color: "red" }}>Thank You </h2>
             <h5>I got your message </h5>
             <p>&amp; i will get back to you</p>
+            <a
+              href="iqbalwali.herokuapp.com"
+              style={{ textDecoration: "none" }}
+            >
+              <Button variant="warning">Go Back</Button>
+            </a>
           </div>
         ) : (
           ""

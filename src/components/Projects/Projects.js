@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import { ArrowBarRight } from "react-bootstrap-icons";
+// import { ArrowBarRight } from "react-bootstrap-icons";
 import "./Projects.css";
 const Projects = () => {
   return (
@@ -17,7 +17,11 @@ const Projects = () => {
                 TRANSFER AND ACCOMMODATION SERVICES. BECAUSE THEY ARE COMMITTED
                 TO ENRICHING TRAVEL EXPERIENCES
               </p>
-              <a href="https://shuttlelane.com" target="_blank">
+              <a
+                href="https://shuttlelane.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Button>Visit</Button>
               </a>
             </div>
@@ -31,7 +35,11 @@ const Projects = () => {
                 CAN GET SUPPLIES OF EXCUISITE DRY FRUITS AND SPECIAL KASHMIRI
                 TREATS STRAIGHT FROM KASHMIR.
               </p>
-              <a href="https://seraabvalley.com" target="_blank">
+              <a
+                href="https://seraabvalley.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Button>Visit</Button>
               </a>
             </div>
@@ -45,7 +53,11 @@ const Projects = () => {
                 kashmir with proven expertise in the field of web designing, web
                 development, App Development and SEO
               </p>
-              <a href="https://dropoutdevs.com" target="_blank">
+              <a
+                href="https://dropoutdevs.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Button>Visit</Button>
               </a>
             </div>
@@ -57,7 +69,6 @@ const Projects = () => {
               href="https://github.com/iqbalwalii"
               target="_blank"
               rel="noreferrer"
-              target="_blank"
               style={{
                 textDecoration: "none",
                 display: "flex",
