@@ -54,7 +54,7 @@ const Socials = () => {
 
             <a
               target="_blank"
-              href="https://api.whatsapp.com/send?phone=9596537413&text=Develop%20a%20website%20for%20me"
+              href="https://api.whatsapp.com/send?phone=919596537413&text=Develop%20a%20website%20for%20me"
               className="whatsapp"
             >
               <Whatsapp />

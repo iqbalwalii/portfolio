@@ -53,11 +53,12 @@ const Contact = () => {
                   }}
                 />
               </Form.Group>
+
               <Col xs={12} md={{ span: 4, offset: 4 }}>
                 <Button
                   variant="success"
                   size="lg"
-                  className="mt-3"
+                  className="mt-3 btn-grad"
                   type="submit"
                 >
                   Submit

@@ -13,9 +13,12 @@ const Hero = () => {
           <div className="hero__inside">
             <div className="inside__body">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-                architecto cumque sequi quae itaque eos possimus nemo sit
-                voluptas officia! Incidunt inventore accusamus reiciendis con
+                Hello, My Name is Iqbal wali. I am a CS Graduate. I completed my
+                Bachelors in Computer Application from Islamia College Srinagar
+                and i am pursuing my Masters through distance education from
+                Indra Gandhi National Open University. I am Self taught
+                developer doing freelance work and ready to make your websites
+                more interactive and user friendly.
               </p>
               <a href="#contact">
                 <Button className="btn-grad">Hire me</Button>
