@@ -52,8 +52,7 @@
 }
 
 .inside__border .hero__inside .image img {
-  width: 50%;
-  margin-left: 9rem;
+  width: 100%;
   border-radius: 50%;
 }
 
