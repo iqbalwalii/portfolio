@@ -6,9 +6,9 @@ const Projects = () => {
   return (
     <Container>
       <div className="inside__border">
-        <h1 className="text-center my-5">My Projects</h1>
-        <div className="projects">
-          <div className="card">
+        <h1 className="text-center my-5">My Work</h1>
+        <Row className="projects">
+          <Col xs={12} md={3} className="card">
             <h5>Shuttlelane</h5>
             <hr />
             <p>
@@ -19,12 +19,9 @@ const Projects = () => {
               doloribus fuga rerum temporibus, dolores laudantium accusamus
               esse.
             </p>
-            <Button>
-              Visit
-              <ArrowBarRight />
-            </Button>
-          </div>
-          <div className="card">
+            <Button>Visit</Button>
+          </Col>
+          <Col xs={12} md={3} className="card">
             <h5>Shuttlelane</h5>
             <hr />
             <p>
@@ -35,12 +32,9 @@ const Projects = () => {
               doloribus fuga rerum temporibus, dolores laudantium accusamus
               esse.
             </p>
-            <Button>
-              Visit
-              <ArrowBarRight />
-            </Button>
-          </div>
-          <div className="card">
+            <Button>Visit</Button>
+          </Col>
+          <Col xs={12} md={3} className="card">
             <h5>Shuttlelane</h5>
             <hr />
             <p>
@@ -51,12 +45,9 @@ const Projects = () => {
               doloribus fuga rerum temporibus, dolores laudantium accusamus
               esse.
             </p>
-            <Button>
-              Visit
-              <ArrowBarRight />
-            </Button>
-          </div>
-        </div>
+            <Button>Visit</Button>
+          </Col>
+        </Row>
         <Row>
           <Col xs={{ offset: 5, span: 2 }}>
             <a

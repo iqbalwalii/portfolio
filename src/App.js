@@ -6,6 +6,8 @@ import "./style.css";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+
+import Socials from "./components/Socials/Socials";
 const App = () => {
   return (
     <div class="container">
@@ -20,10 +22,8 @@ const App = () => {
             <Projects />
             <Contact />
           </Col>
-          {/* <Col xs={12} md={1} className="social_links">
-            <Link />
-          </Col> */}
         </Row>
+        <Socials />
       </div>
     </div>
   );

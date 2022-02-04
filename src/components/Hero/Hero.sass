@@ -18,43 +18,43 @@
         transform: scale(1.02)
         transition: all .6s ease-out
         border-radius: 10px
-       
-    & .left
-        font-size: 1.2rem
-        color: #f8f8f888
-    & .circle
-        display: flex
-        justify-content: center
-        align-items: center
-        // background: #212121
-        & img
-            width: 350px
-            // height: 300px
-            border-radius: 50%
-
-
-@media screen and (min-width: 320px) and (max-width: 500px)
-    .inside__border
-        & .left
-            font-size: 1rem
-        .circle
+    & .hero__inside
+        //first child of flexbox
+        & .logo
+            display: flex
+            align-items: center
+        //second child of flexbox
+        & .hero__inside
+            display: flex
+            color: #cfc7c7
+            filter: drop-shadow(10px 10px 12px #212121)
+            text-shadow: 0 0 10px #212121
+            & a
+                text-decoration: none
+        & .image
             & img
-                width: 200px !important
-                height: 200px
-
-@media screen and (min-width: 500px) and (max-width: 1300px)
-    .inside__border
-        & .left
-            font-size: 1.1rem
-        .circle
-            & img
-                width: 250px !important
-                height: 250px
-@media screen and (min-width: 700px) and (max-width: 966px)
-    .inside__border
-        & .left
-            font-size: 1.1rem
-        .circle
-            & img
-                width: 200px !important
-                height: 200px
+                width: 50%
+                margin-left: 9rem
+                border-radius: 50%    
+@media screen and (max-width: 700px)
+    .hero__inside
+        //first child of flexbox
+        & .logo
+            flex-direction: column
+        //second child of flexbox
+        & .hero__inside
+            flex-direction: column
+            
+            & .inside__body
+                order: 2
+                margin-top: 1rem
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+            & .image
+                margin: 1rem
+                & img
+                    margin: 0
+                    width: 100%
+        

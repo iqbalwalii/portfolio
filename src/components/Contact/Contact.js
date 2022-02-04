@@ -5,17 +5,12 @@ const END_POINT =
   "https://public.herotofu.com/v1/d7a10020-7e7c-11ec-bc90-9fd568dae57d";
 const Contact = () => {
   const [details, setDetails] = useState({});
-  const [popup, setPopup] = useState(false);
-  const onSubmitHandler = (e) => {
-    setPopup(true);
-  };
   return (
     <Container>
-      <Row>{popup === true ? <Thanks /> : ""}</Row>
-      <div className="inside__border">
+      <div className="inside__border" id="contact">
         <h2 className="text-center">Contact</h2>
         <Row>
-          <Col xs={{ span: 6, offset: 3 }}>
+          <Col xs={12} md={{ span: 6, offset: 3 }}>
             <Form action={END_POINT} method="post">
               <Form.Group controlId="Name" className="mt-2">
                 <Form.Label>Name</Form.Label>
@@ -58,13 +53,12 @@ const Contact = () => {
                   }}
                 />
               </Form.Group>
-              <Col xs={{ span: 4, offset: 4 }}>
+              <Col xs={12} md={{ span: 4, offset: 4 }}>
                 <Button
                   variant="success"
                   size="lg"
                   className="mt-3"
                   type="submit"
-                  onClick={onSubmitHandler}
                 >
                   Submit
                 </Button>

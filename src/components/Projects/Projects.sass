@@ -1,11 +1,10 @@
 .projects
-    display: grid
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
-    grid-gap: 1.3rem
     & .card
         background: #212121
         color: #f8f8f8
         border-radius: 8px
+        margin: 2.5rem
+        padding: 1rem
         & h5
             margin: 0
             padding: 1rem
@@ -14,3 +13,25 @@
             margin: 0
         & p
             padding: 1rem
+        & button
+            display: flex
+            justify-content: center
+            align-items: center
+@media screen and (max-width: 700px)
+    .projects
+        & .card
+            margin: 0
+            margin-bottom: 2rem
+            padding: .5rem
+            & h5
+                margin: 0
+                padding: 1rem
+                padding-bottom: .2rem
+            & hr
+                margin: 0
+            & p
+                padding: 1rem
+            & button
+                display: flex
+                justify-content: center
+                align-items: center

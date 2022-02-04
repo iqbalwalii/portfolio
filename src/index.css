@@ -11,21 +11,86 @@ body {
   display: flex;
 }
 
-.social_links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.my__socials .facebook {
+  color: #212121;
+  font-size: 2rem;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.my__socials .facebook:hover {
+  color: #15A2FA;
+}
+
+.my__socials .twitter {
+  color: #212121;
+  font-size: 2rem;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.my__socials .twitter:hover {
+  color: #1A8CD8;
+}
+
+.my__socials .linkedin {
+  color: #212121;
+  font-size: 2rem;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.my__socials .linkedin:hover {
+  color: #0A66C2;
+}
+
+.my__socials .discord {
+  color: #212121;
+  font-size: 2rem;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.my__socials .discord:hover {
+  color: #5562EA;
+}
+
+.my__socials .reddit {
+  color: #212121;
+  font-size: 2rem;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.my__socials .reddit:hover {
+  color: #FF4500;
+}
+
+.my__socials .instagram {
+  color: #212121;
+  font-size: 2rem;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.my__socials .instagram:hover {
+  color: #5951C5;
+}
+
+.my__socials .whatsapp {
+  color: #212121;
+  font-size: 2rem;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.my__socials .whatsapp:hover {
+  color: #43E961;
 }
 
 .btn-grad {
-  background-image: -webkit-gradient(linear, left top, right top, from(#9ce183), color-stop(51%, #929edd), to(#9ce183));
-  background-image: linear-gradient(to right, #9ce183 0%, #929edd 51%, #9ce183 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#e22850), color-stop(51%, #292b35), to(#22b95c));
+  background-image: linear-gradient(to right, #e22850 0%, #292b35 51%, #22b95c 100%);
   margin-top: 10px;
   padding: 10px 30px;
   border: 1px solid #2121211e;
@@ -35,6 +100,7 @@ body {
   transition: 0.5s;
   background-size: 200% auto;
   color: #181212;
+  color: #fff;
   /* box-shadow: 0 0 20px #eee */
   border-radius: 10px;
   display: block;
@@ -50,7 +116,7 @@ body {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   background-position: right center;
-  color: #212121;
+  color: #f7f0f0;
   text-decoration: none;
   border: 1px solid #2121211e;
 }
