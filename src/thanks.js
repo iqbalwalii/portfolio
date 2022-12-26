@@ -43,7 +43,7 @@ const Thanks = () => {
             <h5>I got your message </h5>
             <p>&amp; i will get back to you</p>
             <a
-              href="iqbalwali.herokuapp.com"
+              href="https://iqbalwali.vercel.app"
               style={{ textDecoration: "none" }}
             >
               <Button variant="warning">Go Back</Button>
