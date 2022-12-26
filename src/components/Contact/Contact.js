@@ -71,7 +71,7 @@ const Contact = () => {
                   className="mt-3 btn-grad"
                   type="submit"
                 >
-                  Submit
+                  Send
                 </Button>
               </Col>
             </Form>
