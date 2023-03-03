@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Image } from "react-bootstrap";
 import "./work.sass";
 const index = () => {
