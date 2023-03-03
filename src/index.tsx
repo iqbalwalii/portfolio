@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import ReactDOM from "react-dom";
-import React from "react";
 import App from "./App";
 import Thanks from "./thanks";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

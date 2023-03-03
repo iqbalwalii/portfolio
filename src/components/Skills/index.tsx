@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "./Skills.css";
+import "./Skills.sass";
 const Skills = () => {
   return (
     <Container>
@@ -48,7 +48,7 @@ const Skills = () => {
             <h6 className="text-center">REACT.JS</h6>
           </div>
           <div className="skill d-flex align-items-center justify-content-center flex-column ">
-            <img alt="skills" src="/assets/nextjs-2.svg" width="100px" />
+            <img alt="skills" src="/assets/next-js.svg" width="100px" />
             <h6 className="text-center">NEXT.JS</h6>
           </div>
           <div className="skill d-flex align-items-center justify-content-center flex-column ">
@@ -59,14 +59,30 @@ const Skills = () => {
             <img alt="skills" src="/assets/postgresql.svg" width="100px" />
             <h6 className="text-center">POSTGRESQL</h6>
           </div>
-          {/* <div className="skill d-flex align-items-center justify-content-center flex-column ">
-            <img alt='skills' src="/assets/sqlite.svg" width="100px" />
-            <h6 className="text-center">SQLite</h6>
-          </div>
           <div className="skill d-flex align-items-center justify-content-center flex-column ">
-            <img alt='skills' src="/assets/mongodb-icon-1.svg" width="100px" />
+            <img alt="skills" src="/assets/postcss.svg" width="100px" />
+            <h6 className="text-center">POST CSS</h6>
+          </div>
+          {/* <div className="skill d-flex align-items-center justify-content-center flex-column ">
+            <img alt="skills" src="/assets/mongodb-icon-1.svg" width="100px" />
             <h6 className="text-center">MongoDB</h6>
           </div> */}
+          <div className="skill d-flex align-items-center justify-content-center flex-column ">
+            <img alt="skills" src="/assets/chakra-ui.svg" width="100px" />
+            <h6 className="text-center">Chakra UI</h6>
+          </div>
+          {/* <div className="skill d-flex align-items-center justify-content-center flex-column ">
+            <img alt="skills" src="/assets/express.svg" width="100px" />
+            <h6 className="text-center">Express</h6>
+          </div> */}
+          <div className="skill d-flex align-items-center justify-content-center flex-column ">
+            <img alt="skills" src="/assets/shopify.svg" width="100px" />
+            <h6 className="text-center">Shopify</h6>
+          </div>
+          <div className="skill d-flex align-items-center justify-content-center flex-column ">
+            <img alt="skills" src="/assets/ts.svg" width="100px" />
+            <h6 className="text-center">TypeScript</h6>
+          </div>
         </div>
       </div>
     </Container>

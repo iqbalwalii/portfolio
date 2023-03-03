@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
-import "../Hero/Hero.css";
+import "../Hero/Hero.sass";
 const Hero = () => {
   return (
     <Container>

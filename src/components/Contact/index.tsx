@@ -1,21 +1,19 @@
 import React, { useState } from "react";
 import { Button, Container, Form, Row, Col } from "react-bootstrap";
-// import Thanks from "../../thanks";
-const END_POINT =
-  "https://public.herotofu.com/v1/d7a10020-7e7c-11ec-bc90-9fd568dae57d";
 const Contact = () => {
-  const [details, setDetails] = useState({});
+  const required = true;
+  const [details, setDetails] = useState<any>({});
   return (
     <Container>
       <div className="inside__border" id="contact">
         <h2 className="text-center">Contact</h2>
         <Row>
           <Col xs={12} md={{ span: 6, offset: 3 }}>
-            <Form action={END_POINT} method="post">
+            <Form action={process.env.END_POINT} method="post">
               <Form.Group controlId="Name" className="mt-2">
                 <Form.Label>Name</Form.Label>
                 <Form.Control
-                  required="required"
+                  required={required}
                   placeholder="Your Name"
                   value={details.name}
                   name="Name"
@@ -32,7 +30,7 @@ const Contact = () => {
                   name="Email"
                   id="email"
                   type="email"
-                  required="required"
+                  required={required}
                   placeholder="Your Email Id"
                   onChange={(e) => {
                     setDetails({ ...details, email: e.target.value });
@@ -46,7 +44,7 @@ const Contact = () => {
                   as="textarea"
                   id="Message"
                   name="Message"
-                  required="required"
+                  required={required}
                   placeholder="Your Message"
                   onChange={(e) => {
                     setDetails({ ...details, message: e.target.value });

@@ -1,0 +1,22 @@
+.workplace
+    display: flex
+    justify-content: space-around
+    margin-bottom: 1rem
+    flex-wrap: wrap
+    & .description
+        background: #fff
+        border-radius: 5px
+        padding: .4rem
+        width: 70%
+        & .line
+            border-top: 1px solid #000
+            display: flex
+            padding: .4rem
+            &:first-of-type
+                border-top: none
+            & > span
+                font-weight: bolder
+                margin-right: .3rem
+@media screen and (max-width: 400px)
+    .description
+        width: 100%

@@ -1,12 +1,12 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 // import { ArrowBarRight } from "react-bootstrap-icons";
-import "./Projects.css";
+import "./Projects.sass";
 const Projects = () => {
   return (
     <Container>
       <div className="inside__border">
-        <h1 className="text-center my-5">My Work</h1>
+        <h1 className="text-center my-5">Projects</h1>
         <Row className="projects">
           <Col xs={12} md={3} className="card">
             <h5>Shuttlelane</h5>
