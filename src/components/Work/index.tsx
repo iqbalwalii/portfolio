@@ -1,4 +1,5 @@
 import { Container, Image } from "react-bootstrap";
+import "./work.sass";
 const index = () => {
   return (
     <Container>
