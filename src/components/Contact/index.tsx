@@ -3,13 +3,15 @@ import { Button, Container, Form, Row, Col } from "react-bootstrap";
 const Contact = () => {
   const required = true;
   const [details, setDetails] = useState<any>({});
+  const END_POINT =
+    "https://public.herotofu.com/v1/d7a10020-7e7c-11ec-bc90-9fd568dae57d";
   return (
     <Container>
       <div className="inside__border" id="contact">
         <h2 className="text-center">Contact</h2>
         <Row>
           <Col xs={12} md={{ span: 6, offset: 3 }}>
-            <Form action={process.env.END_POINT} method="post">
+            <Form action={END_POINT} method="post">
               <Form.Group controlId="Name" className="mt-2">
                 <Form.Label>Name</Form.Label>
                 <Form.Control

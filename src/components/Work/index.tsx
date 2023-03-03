@@ -1,7 +1,5 @@
 import { Container, Image } from "react-bootstrap";
-import "./work.sass";
 const index = () => {
-  console.log(process.env.END_POINT);
   return (
     <Container>
       <div className="inside__border">
