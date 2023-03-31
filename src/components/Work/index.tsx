@@ -3,10 +3,7 @@ import "./work.sass";
 const index = () => {
   return (
     <Container>
-      <div
-        className="inside__border"
-        style={{ padding: "0", fontSize: ".6rem" }}
-      >
+      <div className="inside__border work">
         <h1 className="text-center my-5">Work History</h1>
         <div className="dropoutdevs workplace">
           <Image src="/assets/dropoutdevs.svg" width="100px" />
