@@ -3,7 +3,10 @@ import "./work.sass";
 const index = () => {
   return (
     <Container>
-      <div className="inside__border">
+      <div
+        className="inside__border"
+        style={{ padding: "0", fontSize: ".6rem" }}
+      >
         <h1 className="text-center my-5">Work History</h1>
         <div className="dropoutdevs workplace">
           <Image src="/assets/dropoutdevs.svg" width="100px" />
@@ -15,13 +18,13 @@ const index = () => {
               <span>Nature of the company: </span> Startup
             </div>
             <div className="line">
-              <span>Duration of work: </span> 1 Year 8 Monhts
+              <span>Duration: </span> 1 Year 8 Monhts
             </div>
             <div className="line">
               <span>Role: </span> Software Engineer/ UIUX
             </div>
             <div className="line">
-              <span>Location of company: </span> Srinagar J&K
+              <span>Location: </span> Srinagar J&K
             </div>
             <div className="line">
               <span>Work type: </span> onsite
@@ -45,13 +48,13 @@ const index = () => {
               <span>Nature of the company: </span> Startup
             </div>
             <div className="line">
-              <span>Duration of work: </span> 8 Monhts
+              <span>Duration: </span> 8 Monhts
             </div>
             <div className="line">
               <span>Role: </span> Software Engineer/ UIUX
             </div>
             <div className="line">
-              <span>Location of company: </span> Berlin, Germany
+              <span>Location : </span> Berlin, Germany
             </div>
             <div className="line">
               <span>Work type: </span> Remote
@@ -74,13 +77,13 @@ const index = () => {
               <span>Nature of the company: </span> Startup
             </div>
             <div className="line">
-              <span>Duration of work: </span> 6 Monhts
+              <span>Duration : </span> 6 Monhts
             </div>
             <div className="line">
               <span>Role: </span> Frontend Engineer
             </div>
             <div className="line">
-              <span>Location of company: </span> Seattle USA
+              <span>Location : </span> Seattle USA
             </div>
             <div className="line">
               <span>Work type: </span> Remote
