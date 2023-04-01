@@ -37,7 +37,17 @@
             & img
                 width: 100%
                 border-radius: 50%    
+.hero
+    display: flex
+    flex-direction: column
+    & .hireBtn
+        width: 100px
+        padding-left: .7rem
+
 @media screen and (max-width: 700px)
+    .hero
+        & .hireBtn
+            padding-left: 0
     .hero__inside
         //first child of flexbox
         & .logo

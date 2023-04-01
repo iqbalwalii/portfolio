@@ -11,7 +11,7 @@ const Hero = () => {
             <h3 style={{ color: "#7924D4" }}>Iqbal Wali</h3>
           </div>
           <div className="hero__inside">
-            <div className="inside__body">
+            <div className="inside__body hero">
               <p>
                 Hello, My Name is Iqbal wali. I am a CS Graduate. I completed my
                 Bachelors in Computer Application from Islamia College Srinagar
@@ -20,7 +20,7 @@ const Hero = () => {
                 developer doing freelance work and ready to make your websites
                 more interactive and user friendly.
               </p>
-              <a href="#contact">
+              <a href="#contact" className="hireBtn">
                 <Button className="btn-grad">Hire me</Button>
               </a>
             </div>
